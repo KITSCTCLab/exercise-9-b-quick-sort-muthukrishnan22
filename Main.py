@@ -29,4 +29,4 @@ for item in input_data.split(', '):
     data.append(int(item))
   elif item.lstrip("-").isnumeric():
     data.append(int(item))
-print(quick_sort(data, 0, len(data)-1))
+print(quick_sort(data, 0, len(data)-1)) 
